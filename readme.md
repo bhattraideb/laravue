@@ -36,7 +36,7 @@ User Profile API A basic API developmed in Laravel 5.6 to demonstrate RESTful co
         - http://infamousapi.local/api/v1/user/list
         - http://infamousapi.local/api/v1/user/register
         
-            
+                            
             Sample Data to pass:
              {
                 "first_name": "Test",
@@ -50,8 +50,9 @@ User Profile API A basic API developmed in Laravel 5.6 to demonstrate RESTful co
                 "profile_picture": "image.jpg"
             }
    
-   - http://infamousapi.local/api/v1/user/update/11
    
+   - http://infamousapi.local/api/v1/user/update/11
+      
             Sample Data to pass:
              {
                 "first_name": "My First",
