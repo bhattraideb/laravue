@@ -32,8 +32,8 @@ User Profile API A basic API developmed in Laravel 5.6 to demonstrate RESTful co
    - Now go to browser and type http://infamousapi.local. It will show laravel default page.
    - If you want to test the API, You can do it with the postman.
    - I have tested following links and working properly.
-        - http://infamousapi.local/api/v1/user/list
-        - http://infamousapi.local/api/v1/user/register
+        - http://infamousapi.local/api/v1/users/list
+        - http://infamousapi.local/api/v1/users/register
         
 
             Sample Data to pass:
@@ -64,13 +64,13 @@ User Profile API A basic API developmed in Laravel 5.6 to demonstrate RESTful co
                 "password": "Admin123",
                 "profile_picture": "imageupdate.jpg"
             }     
-        - http://infamousapi.local/api/v1/user/delete/11
+        - http://infamousapi.local/api/v1/users/delete/11
         
 ## How to implement with front end framework
   To integrate this API with front end framework just call the links:
-  - http://infamousapi.local/api/v1/user/list
-  - http://infamousapi.local/api/v1/user/register 
-  - http://infamousapi.local/api/v1/user/update/11
-  - http://infamousapi.local/api/v1/user/delete/11
+  - http://infamousapi.local/api/v1/users/list
+  - http://infamousapi.local/api/v1/users/register 
+  - http://infamousapi.local/api/v1/users/update/11
+  - http://infamousapi.local/api/v1/users/delete/11
   
   For register and update you have to pass the data in JSON format as given above.
