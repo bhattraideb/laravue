@@ -1,4 +1,3 @@
-
 ## About User Profile API
 
 User Profile API A basic API developmed in Laravel 5.6 to demonstrate RESTful concept. I have implemented four functionality in this API: Register, Update, List(Single user and all users), and Delete users. This API will act as Backend and can be used for any front end frameworks like AngularJs, VueJs.
@@ -36,7 +35,7 @@ User Profile API A basic API developmed in Laravel 5.6 to demonstrate RESTful co
         - http://infamousapi.local/api/v1/user/list
         - http://infamousapi.local/api/v1/user/register
         
-        
+
             Sample Data to pass:
              {
                 "first_name": "Test",
@@ -49,10 +48,11 @@ User Profile API A basic API developmed in Laravel 5.6 to demonstrate RESTful co
                 "password": "Admin123",
                 "profile_picture": "image.jpg"
             }
-      
+     
    - http://infamousapi.local/api/v1/user/update/11
       
-            Sample Data to pass:
+   
+           Sample Data to pass:
              {
                 "first_name": "My First",
                 "last_name": "name",
