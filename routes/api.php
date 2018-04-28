@@ -72,5 +72,16 @@ Route::group(['middleware' => 'api'], function()
             'uses' => 'UserController@update'
         ]);
 
+
+        /**
+         * delete the user
+         * Link: http://infamousapi.local/api/v1/user/delete/11
+         *
+         */
+
+        Route::get('user/delete/{id}', [
+            'uses' => 'UserController@destroy'
+        ]);
+
     });
 });

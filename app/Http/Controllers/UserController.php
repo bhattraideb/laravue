@@ -75,8 +75,6 @@ class UserController extends Controller
 
     }
 
-
-
     public function update(Request $request, $id) {
 
         //validate data
@@ -108,12 +106,25 @@ class UserController extends Controller
         }else{
             $message =  'Update Failed.';
         }
-
-
         $response = [
             'msg' => $message,
             'users' => $user
         ];
+        return response()->json($response, 201);
+    }
+
+    public function destroy($id)
+    {
+        $user = User::find($id);
+        if($user->delete()){
+                $message =  'Deleted Successfully!';
+            }else{
+                $message =  'Delete Failed.';
+            }
+            $response = [
+                'msg' => $message,
+                'users' => $user
+            ];
         return response()->json($response, 201);
     }
 }
