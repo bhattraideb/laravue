@@ -1,4 +1,3 @@
-
 ## About User Profile API
 
 User Profile API A basic API developmed in Laravel 5.6 to demonstrate RESTful concept. I have implemented four functionality in this API: Register, Update, List(Single user and all users), and Delete users. This API will act as Backend and can be used for any front end frameworks like AngularJs, VueJs.
@@ -66,7 +65,7 @@ User Profile API A basic API developmed in Laravel 5.6 to demonstrate RESTful co
             }     
         - http://infamousapi.local/api/v1/user/delete/11
         
-   ## How to implement with front end framework
+## How to implement with front end framework
   To integrate this API with front end framework just call the links:
   - http://infamousapi.local/api/v1/user/list
   - http://infamousapi.local/api/v1/user/register 
